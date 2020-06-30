@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 // @ts-check
 it('loads', () => {
-  cy.visit('localhost:3000')
+  cy.visit('https://seequentglobal--protodev.my.salesforce.com/')
   // use "selector", "text" arguments to "cy.contains"
-  cy.contains('a', 'TodoMVC')
+  cy.contains('Login |Salesforce')
 })
